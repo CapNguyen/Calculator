@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>My Calculator</title>
+    <link rel="stylesheet" href="Calculator.css" />
+    <link rel="icon" type="image/x-icon" href="MyFBava.jpg" />
+</head>
+
+<body>
+    <div>
+        <div id="background">
+            <div id="main">
+                <div id="screen">
+                    <div id="label">
+                        FX-580VN-Plus
+                    </div>
+                    <div id="small_scr">
+
+                    </div>
+                    <div id="main_scr">0</div>
+                </div>
+                <div id="numb_oper">
+                    <button type="button" onclick="toPercentage()" class="button func" id="percent">%</button>
+                    <button type="button" onclick="clearMain()" class="button func" id="clear_entry">CE</button>
+                    <button type="button" onclick="clearAll()" class="button func" id="clear">C</button>
+                    <button type="button" onclick="delLast()" class="button func" id="delete">DEL</button>
+                    <button type="button" onclick="inverse()" class="button func" id="inverse"><sup>1</sup>/x</button>
+                    <button type="button" onclick="sqr()" class="button func" id="sqr">x<sup>2</sup></button>
+                    <button type="button" onclick="sqrt()" class="button func" id="sqrt"><sup>2</sup>√<span
+                            style="text-decoration: overline">x</span>
+                    </button>
+                    <button type="button" onclick="divide()" class="button func" id="divide"
+                        style="font-size: x-large;">&#247</button>
+                    <button type="button" onclick="writeNumb(0)" class="button numb">7</button>
+                    <button type="button" onclick="writeNumb(1)" class="button numb">8</button>
+                    <button type="button" onclick="writeNumb(2)" class="button numb">9</button>
+                    <button type="button" onclick="operator('*')" class="button func" id="multiply">X</button>
+                    <button type="button" onclick="writeNumb(3)" class="button numb">4</button>
+                    <button type="button" onclick="writeNumb(4)" class="button numb">5</button>
+                    <button type="button" onclick="writeNumb(5)" class="button numb">6</button>
+                    <button type="button" onclick="operator('-')" class="button func" id="minus"><span
+                            id="minusOper"></span></button>
+                    <button type="button" onclick="writeNumb(6)" class="button numb">1</button>
+                    <button type="button" onclick="writeNumb(7)" class="button numb">2</button>
+                    <button type="button" onclick="writeNumb(8)" class="button numb">3</button>
+                    <button type="button" onclick="operator('+')" class="button func" id="plus">+</button>
+                    <button type="button" onclick="changeType()" class="button change"
+                        id="plus/operator('-')"><sup>+</sup>/-</button>
+                    <button type="button" onclick="writeNumb(9)" class="button numb">0</button>
+                    <button type="button" onclick="writeDec()" class="button" id="decimal">.</button>
+                    <button type="button" onclick="calc()" class="button equal" id="calc">=</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="Calculator.js"></script>
+
+</body>
+
+</html>
