@@ -44,7 +44,6 @@ body {
     text-align: right;
     overflow: hidden;
     font-size: 20px;
-    font-weight: 500;
     max-width: 40ch;
     text-overflow: hidden;
 }
@@ -53,7 +52,7 @@ body {
     height: 50%;
     text-align: right;
     font-size: 40px;
-    font-weight: 600;
+    font-weight: bold;
     max-width: 21ch;
     overflow: hidden;
     text-overflow: hidden;
@@ -90,13 +89,13 @@ body {
 }
 
 .func {
-    font-weight: 100;
+    font-weight: lighter;
     background-color: rgb(24, 24, 24);
 
 }
 
 .equal {
-    font-size: x-large;
+    font-weight: bold;
     background-color: rgb(0, 140, 255);
 }
 
